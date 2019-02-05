@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Trit_source.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\Trit_source.dir/objects.a @CMakeFiles\Trit_source.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  -std=gnu++0x -Wall -g   -Wl,--whole-archive CMakeFiles\Trit_source.dir/objects.a -Wl,--no-whole-archive  -o Trit_source.exe -Wl,--out-implib,libTrit_source.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Trit_source.dir\linklibs.rsp
