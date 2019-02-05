@@ -1,0 +1,9 @@
+/home/anton/Programs/Clion/clion-2018.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/anton/HDD/projects/git/task1
+CMake Warning at Tests/googletest/CMakeLists.txt:47 (project):
+  VERSION keyword not followed by a value or was followed by a value that
+  expanded to nothing.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/anton/HDD/projects/git/task1/cmake-build-debug

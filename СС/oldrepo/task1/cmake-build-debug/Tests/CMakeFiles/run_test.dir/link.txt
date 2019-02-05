@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++0x -Wall -g   CMakeFiles/run_test.dir/runTest.cpp.o  -o run_test ../lib/libgtestd.a ../lib/libgtest_maind.a ../TritSet/libTritSet.a ../lib/libgtestd.a -pthread 

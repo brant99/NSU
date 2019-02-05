@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++0x -Wall -g   CMakeFiles/task1.dir/main.cpp.o  -o task1 TritSet/libTritSet.a 
