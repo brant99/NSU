@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ConExecute.h
+map
+-
+forward_list
+-
+
+/media/anton/HDD/projects/git/task2/Commands/Command.h
+../ConExecute.h
+-
+string
+-
+
+/media/anton/HDD/projects/git/task2/Commands/CommandFactory.h
+Command.h
+/media/anton/HDD/projects/git/task2/Commands/Command.h
+
+/media/anton/HDD/projects/git/task2/Commands/CommandMaker.h
+Command.h
+/media/anton/HDD/projects/git/task2/Commands/Command.h
+CommandFactory.h
+/media/anton/HDD/projects/git/task2/Commands/CommandFactory.h
+
+/media/anton/HDD/projects/git/task2/Commands/Define.cpp
+iostream
+-
+Define.h
+/media/anton/HDD/projects/git/task2/Commands/Define.h
+
+/media/anton/HDD/projects/git/task2/Commands/Define.h
+Command.h
+/media/anton/HDD/projects/git/task2/Commands/Command.h
+CommandMaker.h
+/media/anton/HDD/projects/git/task2/Commands/CommandMaker.h
+

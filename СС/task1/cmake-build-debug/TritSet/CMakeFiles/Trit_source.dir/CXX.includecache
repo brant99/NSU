@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Win/projects/git/C-projects-NSU-/task1/TritSet/TritSet.cpp
+TritSet.h
+D:/Win/projects/git/C-projects-NSU-/task1/TritSet/TritSet.h
+
+D:/Win/projects/git/C-projects-NSU-/task1/TritSet/TritSet.h
+iostream
+-
+vector
+-
+

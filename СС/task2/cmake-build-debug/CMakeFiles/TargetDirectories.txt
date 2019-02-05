@@ -1,0 +1,5 @@
+/media/anton/HDD/projects/git/task2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/anton/HDD/projects/git/task2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/anton/HDD/projects/git/task2/cmake-build-debug/CMakeFiles/task2.dir
+/media/anton/HDD/projects/git/task2/cmake-build-debug/Commands/CMakeFiles/rebuild_cache.dir
+/media/anton/HDD/projects/git/task2/cmake-build-debug/Commands/CMakeFiles/edit_cache.dir

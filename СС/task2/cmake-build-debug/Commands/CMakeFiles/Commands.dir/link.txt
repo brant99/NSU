@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCommands.a  CMakeFiles/Commands.dir/Define.cpp.o CMakeFiles/Commands.dir/Divide.cpp.o CMakeFiles/Commands.dir/Sqrt.cpp.o CMakeFiles/Commands.dir/CommandFactory.cpp.o
+/usr/bin/ranlib libCommands.a

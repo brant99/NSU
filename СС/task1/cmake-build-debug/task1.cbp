@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="task1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Tests\;CMake Files\Tests\googletest\;CMake Files\Tests\googletest\cmake\;CMake Files\TritSet\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task1">
+				<Option output="/media/anton/HDD/projects/git/task1/cmake-build-debug/task1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/anton/HDD/projects/git/task1/TritSet"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 task1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task1/fast">
+				<Option output="/media/anton/HDD/projects/git/task1/cmake-build-debug/task1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/anton/HDD/projects/git/task1/TritSet"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 task1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TritSet">
+				<Option output="/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet/libTritSet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/anton/HDD/projects/git/task1/TritSet"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet/Makefile&quot;  VERBOSE=1 TritSet"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TritSet/fast">
+				<Option output="/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet/libTritSet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/anton/HDD/projects/git/task1/TritSet"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet/Makefile&quot;  VERBOSE=1 TritSet/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/TritSet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_test">
+				<Option output="/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/run_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/anton/HDD/projects/git/task1/TritSet"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest/include"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 run_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_test/fast">
+				<Option output="/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/run_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/anton/HDD/projects/git/task1/TritSet"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest/include"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 run_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/media/anton/HDD/projects/git/task1/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/anton/HDD/projects/git/task1/TritSet"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest/include"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/media/anton/HDD/projects/git/task1/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/anton/HDD/projects/git/task1/TritSet"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest/include"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/media/anton/HDD/projects/git/task1/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/anton/HDD/projects/git/task1/TritSet"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest/include"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/media/anton/HDD/projects/git/task1/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/anton/HDD/projects/git/task1/TritSet"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest/include"/>
+					<Add directory="/media/anton/HDD/projects/git/task1/Tests/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/anton/HDD/projects/git/task1/cmake-build-debug/Tests/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/anton/HDD/projects/git/task1/Tests/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/media/anton/HDD/projects/git/task1/Tests/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/media/anton/HDD/projects/git/task1/Tests/runTest.cpp">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/media/anton/HDD/projects/git/task1/TritSet/TritSet.cpp">
+			<Option target="TritSet"/>
+		</Unit>
+		<Unit filename="/media/anton/HDD/projects/git/task1/TritSet/TritSet.h">
+			<Option target="TritSet"/>
+		</Unit>
+		<Unit filename="/media/anton/HDD/projects/git/task1/main.cpp">
+			<Option target="task1"/>
+		</Unit>
+		<Unit filename="/media/anton/HDD/projects/git/task1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/anton/HDD/projects/git/task1/Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\"/>
+		</Unit>
+		<Unit filename="/media/anton/HDD/projects/git/task1/Tests/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\googletest\"/>
+		</Unit>
+		<Unit filename="/media/anton/HDD/projects/git/task1/Tests/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Tests\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/media/anton/HDD/projects/git/task1/TritSet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TritSet\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

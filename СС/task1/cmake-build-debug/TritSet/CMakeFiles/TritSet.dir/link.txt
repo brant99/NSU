@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTritSet.a  CMakeFiles/TritSet.dir/TritSet.cpp.o
+/usr/bin/ranlib libTritSet.a
