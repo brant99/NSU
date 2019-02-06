@@ -1,8 +1,8 @@
 import java.io.*;
 public class Main {
     public static void main(String[]args) throws IOException{
-        Table CSV=new Table();
-        CSV.execute("/home/anton/Documents/dataForPrograms/java/input.txt");
+        WordReader CSVreader=new WordReader("/home/anton/Documents/dataForPrograms/java/input.txt");
+        WordWriter CSVprinter=new WordWriter();
+        CSVprinter.execute(CSVreader.getData(),CSVreader.getAmount());
     }
 }
-
