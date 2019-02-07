@@ -1,8 +1,9 @@
 import java.io.*;
 public class Main {
     public static void main(String[]args) throws IOException{
-        WordReader CSVreader=new WordReader("/home/anton/Documents/dataForPrograms/java/input.txt");
-        WordWriter CSVprinter=new WordWriter();
-        CSVprinter.execute(CSVreader.getData(),CSVreader.getAmount());
+        Counter wordCount=new Counter("/home/anton/Documents/dataForPrograms/java/input.txt");
+        wordCount.count();
+        Writer writer=new CSVWriter("/home/anton/Documents/dataForPrograms/java/output.csv");
+        writer.write(wordCount.getData(),wordCount.getAmount());
     }
 }
