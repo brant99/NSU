@@ -1,0 +1,12 @@
+Number of MPI process: 8
+File $PBS_NODEFILE:
+cn124.hpc.nusc.ru
+cn124.hpc.nusc.ru
+cn124.hpc.nusc.ru
+cn124.hpc.nusc.ru
+cn124.hpc.nusc.ru
+cn124.hpc.nusc.ru
+cn124.hpc.nusc.ru
+cn124.hpc.nusc.ru
+
+takes 9.916879 time
