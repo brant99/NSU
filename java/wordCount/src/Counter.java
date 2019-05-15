@@ -27,12 +27,15 @@ public class Counter {
         WordCont=WordCont.entrySet().stream().
                 sorted(Collections.reverseOrder(comparingByValue())).
                 collect(toMap(e->e.getKey(),e->e.getValue(),(e1,e2)->e2, LinkedHashMap::new));
-    }
-
-    public Map<String,Integer> getData(){
-        return WordCont;
-    }
-    public int getAmount(){
-        return Count;
+   }
+    public String[] getData (String delim) {
+        String[] data = new String[WordCont.size()+1];
+        data[0]= String.join(delim, "word","percent");
+        int i = 1;
+        for (Map.Entry<String, Integer> entry : WordCont.entrySet()) {
+            data[i] = String.join(delim, entry.getKey(), Double.toString(100 * entry.getValue() / Count));
+            i++;
+        }
+        return data;
     }
 }

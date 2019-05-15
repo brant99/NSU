@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
   while((opt=getopt(argc,argv,options))!=EOF){
     switch (opt) {
       case 'i':
-        printf("Ruid=%u\nEuid=%u\nRGid=%u\nEgid=%u\n",getuid(),geteuid(),getgid(),getegid());
+          printf("Ruid=%u\nEuid=%u\nRGid=%u\nEgid=%u\n",getuid(),geteuid(),getgid(),getegid());
         break;
       case 'u':
         printf("ulimit=%ld\n",ulimit(UL_GETFSIZE));
@@ -24,9 +24,9 @@ int main(int argc, char *argv[]){
         ulimit(UL_SETFSIZE,atol(optarg));
         break;
       case 's':
-        setpgid(getpid(),getpgid(getpid()));
+        setpgid(getpid(),0);
       case 'p':
-        printf("PID=%u\nPPID=%u\nPGID=%u\n", getpid(),getppid(),getpgid(getpid()));
+        printf("PID=%u\nPPID=%u\nPGID=%u\n", getpid(),getppid(),getpgid();
         break;
       case 'c':
         getrlimit(RLIMIT_CORE,&rlim);
@@ -34,8 +34,7 @@ int main(int argc, char *argv[]){
         break;
       case 'C':
         size=atol(optarg);
-        rlim.rlim_cur=0;
-        rlim.rlim_max=size;
+        rlim.rlim_cur=size;
         setrlimit(RLIMIT_CORE,&rlim);
         break;
       case 'd':
@@ -46,15 +45,7 @@ int main(int argc, char *argv[]){
           printf("%s\n",*environ++ );
         break;
       case 'V':
-        for(i=0;optarg[i]!='=';i++){}
-        value=&optarg[i+1];
-        name=malloc(sizeof(char)*i);
-        for(i=0;optarg[i]!='=';i++){
-          name[i]=optarg[i];
-        }
-        setenv(name,value,1);
-        value=NULL;
-        free(name);
+        putenv(optarg);
         break;
       case '?':
         printf("Unknown Option %d\n",optind);

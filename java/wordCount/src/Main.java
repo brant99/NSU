@@ -4,6 +4,6 @@ public class Main {
         Counter wordCount=new Counter("/home/anton/Documents/dataForPrograms/java/input.txt");
         wordCount.count();
         Writer writer=new CSVWriter("/home/anton/Documents/dataForPrograms/java/output.csv");
-        writer.write(wordCount.getData(),wordCount.getAmount());
+        writer.write(wordCount.getData(";"));
     }
 }

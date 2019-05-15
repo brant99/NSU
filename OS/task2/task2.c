@@ -1,11 +1,10 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
-int main(){
-  struct tm* date;
-  time_t rawtime;
-  time(&rawtime);
-  date=gmtime(&rawtime);
-  date->tm_hour-=8;
-  mktime(date);
-  printf("%s\n",asctime(date) );
+#include <stdio.h>
+int main()
+{
+    time_t now;
+    time( &now );
+    putenv("TZ=America/Tijuana");
+    printf("%s", ctime( &now ) );
 }

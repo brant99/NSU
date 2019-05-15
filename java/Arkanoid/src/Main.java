@@ -1,16 +1,15 @@
-import static org.lwjgl.glfw.GLFW.*;
-public class Main  {
-    private Thread thread;
-    public Main(){
-        glfwInit();
-        long w=glfwCreateWindow(640,200,"sos",0,0);
-        glfwShowWindow(w);
-        while ( glfwWindowShouldClose(w)!=true){
-            glfwPollEvents();
+import Data.Controller;
 
+import java.awt.*;
+
+public class Main{
+    public static void main(String args[]){
+        try {
+            Controller game = new Controller(new Dimension(800, 600));
+            game.initMenu();
         }
-    }
-    public static void main(String []args){
-        Main main=new Main();
+        catch (Exception ex){
+            System.err.println(ex.getMessage());
+        }
     }
 }
