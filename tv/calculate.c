@@ -13,7 +13,7 @@ int main(){
    scanf("%lf",&data[i]);
   while(x<=1){
     for(int i=0;i<N;i++){
-      if(x-data[i]>=0)
+      if(x-data[i]>0)
         value++;
     }
     value/=N;
