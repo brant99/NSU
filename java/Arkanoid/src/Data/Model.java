@@ -9,9 +9,9 @@ import java.util.Random;
 
 public class Model {
     private static Model model;
-    private static Ball ball;
-    private static Desk desk;
-    private static Bricks bricks;
+    private Ball ball;
+    private Desk desk;
+    private Bricks bricks;
     private Dimension dimension;
 
     public static Model getInstance(){
@@ -25,7 +25,7 @@ public class Model {
     }
 
     public void init(){
-        ball=new Ball( (double) 2*dimension.width/3,(double) 2*dimension.height/5,6,(double)dimension.height/50);
+        ball=new Ball( (double) 2*dimension.width/3,(double) 2*dimension.height/5,1,(double)dimension.height/50);
         desk=new Desk((double)dimension.width/2, (double)((9*dimension.height)/10));
         bricks=new Bricks((double) dimension.width,(double)dimension.height/4);
     }

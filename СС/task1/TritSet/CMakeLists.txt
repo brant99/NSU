@@ -1,1 +1,0 @@
-add_library(TritSet TritSet.cpp TritSet.h)
